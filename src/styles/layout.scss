@@ -1,0 +1,24 @@
+.layout {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    height: 100vh; /* Optional: Sets the layout to fill the full height of the viewport */
+    .s {
+        /* Sidebar styles */
+    }
+    
+    .r {
+        /* Main content styles */
+        display: flex;
+        color: #000;
+        flex-direction: column;
+    }
+
+}
+
+.sidebar{
+    width: 90%;
+    margin: 0 auto;
+    height: 100vh;
+   
+    
+}
